@@ -1,8 +1,5 @@
 # TWRP device tree for Lenovo Smart Tab M10 HD (TB-X505X)
 
-## Release info
-This is an unoffical build. Install at your own risk.
-
 
 ### About Device
 
