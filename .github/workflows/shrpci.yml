@@ -16,11 +16,11 @@ env:
   # Your Device's Codename as in used inside DT." Example: nikel, phoenix, ginkgo, etc.
   KERNEL_LINK: ""
   # Kernel repo link with optional -b branch. Only for building kernel from source. Ignore if using prebuilt.
-  TARGET: ""
+  TARGET: "recoveryimage"
   # Set as recoveryimage (or bootimage if no recovery partition avaiable)
   FLAVOR: "eng"
   # eng by default, change the variable if you want userdebug
-  EXTRA_CMD: ""
+  EXTRA_CMD: "git clone https://github.com/omnirom/android_vendor_qcom_opensource_commonsys --depth=1 -b android-9.0 vendor/qcom/opensource/commonsys"
   # For qualcomm devices put git clone https://github.com/omnirom/android_vendor_qcom_opensource_commonsys --depth=1 -b android-9.0 vendor/qcom/opensource/commonsys in EXTRA CMD
   # If you want to Execute any external Command Before Compilation Starts
   TZ: "Asia/Kolkata"
