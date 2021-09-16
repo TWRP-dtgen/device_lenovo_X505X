@@ -25,7 +25,7 @@ env:
   # If you want to Execute any external Command Before Compilation Starts
   TZ: "Asia/Kolkata"
   TOKEN: ${{ secrets.BOTTOKEN }}
-  PUSHTOSF: {{ github.event.inputs.pushtosf }}
+  PUSHTOSF: ${{ github.event.inputs.pushtosf }}
 
 jobs:
   shrpCI:
