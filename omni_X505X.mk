@@ -19,7 +19,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 PRODUCT_RELEASE_NAME := X505X
 
 # inherit the usual stuff...
-$(call inherit-product, build/target/product/embedded.mk)
+#$(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common_tablet.mk)
 
 ## Device identifier. This must come after all inclusions
