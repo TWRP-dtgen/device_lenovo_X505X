@@ -6,7 +6,7 @@ on:
         description: 'set this to true if you wanna push to sf (all small)'
         required: true
 env:
-  MANIFEST: "https://github.com/SHRP/platform_manifest_twrp_omni -b v3_9.0"
+  MANIFEST: "https://github.com/SHRP/platform_manifest_twrp_omni -b v3_10.0"
   # Recovery Manifest URL with -b branch
   DT_LINK: "https://github.com/SHRP-Devices/device_lenovo_X505X"
   # Your Device Tree Link
